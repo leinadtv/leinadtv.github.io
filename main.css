@@ -71,6 +71,14 @@ body {
   font-family: EB Garamond, Georgia, Arial, sans-serif;
 }
 
+h2 {
+  color: #E21B5A;
+  font-size: 4rem;
+  font-family: Jura, Georgia, Arial, sans-serif;
+  font-weight: bold;
+  padding-left: 3%;
+}
+
 .bor {
   border: solid 1px red;
 }
@@ -164,12 +172,9 @@ header {
   margin-top: 4%;
 }
 
-.about h2 {
-  font-size: 4rem;
-}
-
 .about p {
   margin-top: 10%;
+  font-size: 3rem;
 }
 
 .fulla {
@@ -194,4 +199,53 @@ header {
 
 .fulla figcaption a:hover {
   color: #E21B5A;
+}
+
+/*
+  ========================================
+  Projects
+  ========================================
+*/
+
+.projects {
+  margin: 4% 2% 0 2%;
+}
+
+.projects section {
+  display: inline-block;
+  width: 49%;
+  margin-top: 2%;
+  padding: 2% 0;
+}
+
+.projects a {
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.projects h4 {
+  margin-top: 2%;
+  font-size: 3rem;
+}
+
+.projects section:hover {
+ 
+  background: #FBFFE3;
+}
+
+.projects section img {
+  display: block;
+  margin: 0 auto;
+}
+
+/*
+  ========================================
+  Contact
+  ========================================
+*/
+
+.contact {
+  margin: 4% 2% 0 2%;
 }
