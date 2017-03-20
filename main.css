@@ -72,17 +72,14 @@ body {
 }
 
 h2 {
-  color: #E21B5A;
-  font-size: 4rem;
+  background: #333;
+  color: #FBFFE3;
+  display: inline-block;
+  margin-left: 2%;
+  padding: 1%;
   font-family: Jura, Georgia, Arial, sans-serif;
-  font-weight: bold;
-  padding-left: 3%;
+  font-size: 3rem;
 }
-
-.bor {
-  border: solid 1px red;
-}
-
 /*
   ========================================
   Clearfix
@@ -247,5 +244,44 @@ header {
 */
 
 .contact {
-  margin: 4% 2% 0 2%;
+  margin: 4% 2% 4% 2%;
+}
+
+.contact a {
+  margin: 4% 0 0 16%;
+  text-align: center;
+  color: #9E0C39;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.contact a:hover {
+  color: #E21B5A;
+}
+
+.contact a span {
+  font-family: EB Garamond, Georgia, Arial, sans-serif;
+  font-weight: bold;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+footer {
+  background-color: #333;
+  width: 100%;
+}
+
+.bottom-navig a {
+  text-decoration: none;
+  font-family: Jura, Georgia, Arial, sans-serif;
+  font-size: 1.5rem;
+  color: #FBFFE3;
+}
+
+.bottom-navig a:hover {
+  color: #E21B5A;
 }
