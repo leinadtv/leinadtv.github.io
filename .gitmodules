@@ -1,0 +1,3 @@
+[submodule "sod/m.css"]
+	path = sod/m.css
+	url = git://github.com/mosra/m.css
