@@ -1,0 +1,3 @@
+[submodule "pelsite/m.css"]
+	path = pelsite/m.css
+	url = git://github.com/mosra/m.css
