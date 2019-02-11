@@ -33,14 +33,3 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-
-THEME = 'm.css/pelican-theme'
-THEME_STATIC_DIR = 'static'
-DIRECT_TEMPLATES = ['index']
-
-M_CSS_FILES = ['https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700,700i%7CSource+Code+Pro:400,400i,600',
-               '/static/m-light.css']
-M_THEME_COLOR = '#cb4b16'
-
-PLUGIN_PATHS = ['m.css/pelican-plugins']
-PLUGINS = ['m.htmlsanity']
