@@ -26,7 +26,7 @@
   /* Text properties */
   --font: 'Libre Baskerville', serif;
   --code-font: 'Source Code Pro', monospace;
-  --font-size: 14px;
+  --font-size: 16px;
   --code-font-size: 1em; /* *not* rem, so it follows surrounding font size */
   --paragraph-indent: 1.5rem;
   --paragraph-align: justify;
